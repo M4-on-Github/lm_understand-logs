@@ -1,0 +1,2 @@
+# Keep every file byte-exact: no line-ending conversion, so prompt hashes hold on any machine.
+* -text

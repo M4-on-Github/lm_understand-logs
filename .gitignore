@@ -1,0 +1,7 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+test-claude/.venv/
+__pycache__/
