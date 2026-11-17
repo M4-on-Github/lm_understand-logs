@@ -1,0 +1,608 @@
+{"message": {"id": "msg_011Ch987iQDiQsHqAC9mGbBU", "container": null, "content": [], "diagnostics": null, "model": "claude-fable-5-2", "role": "assistant", "stop_details": null, "stop_reason": null, "stop_sequence": null, "type": "message", "usage": {"cache_creation": {"ephemeral_1h_input_tokens": 0, "ephemeral_5m_input_tokens": 0}, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0, "inference_geo": "global", "input_tokens": 79037, "output_tokens": 8, "service_tier": "standard", "speed": "standard"}}, "type": "message_start"}
+{"content_block": {"signature": "", "thinking": "", "type": "thinking"}, "index": 0, "type": "content_block_start"}
+{"delta": {"thinking": "I'm going to work out the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " game from the weight", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " matrix, starting with which", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " inputs carry large weights", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ". Each input index", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " maps to a cell and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " a channel, so I'm", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " checking where", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the first", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " block of large values starts,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " around line 55,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " which l", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ies", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " at row", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 1, column 1.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm checking chann", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "el 2 across", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the interior cells, where", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " most", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ights are small but a few units", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " stand out, like the large", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " negative values around row", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 1.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "I'm coun", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ting the we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ight rows by", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " index", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " to", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " find where", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " each", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cell's", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " block", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " starts, chec", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "king the row 2 c", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ells and wh", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ether the large", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " values near line", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 125 belong to the inter", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ior.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Next", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " I", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "'m re", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ading through", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the weight bl", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ocks for", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the rem", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "aining inter", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ior cells: the values", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " around", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cells 12 through 18", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " are s", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "izable", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ", while", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " c", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ells 19", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " and 20 are small.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " The", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " first", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " large value", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " after that", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " g", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ap is at cell 21,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " and the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " few", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " l", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ines following", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " it are small again", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ".", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm checking the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " weight blocks after", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the g", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ap:", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the small values", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " in", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " lines 110 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "through", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 119 are", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " nothing not", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "able, and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " then at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " line 120,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cell 24,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the large", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " values start", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " again, with a", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " str", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ong value", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " at unit 2 on", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " channel 1 and a neg", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ative one at unit 6 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "on channel 2.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " I'm also", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " noting that", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " line 125 pic", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ks up another", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " large block at cell 25 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "for the agent chann", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "el.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm sc", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "anning the small-", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "weight blocks further along", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ", at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cells 26 and 27", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ", and then", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the large value", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cell 28 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "on channel 0. After", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " that I'm checking the rem", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "aining w", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "all-row", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " blocks to", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " conf", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "irm they", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " stay small.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Next", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " I", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "'m checking the remaining", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " weight blocks for", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cells 31 through 34", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ", where", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the large values at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " row 3 and the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " small", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " values", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " between", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " them show the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " same", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " pattern as", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " before.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm checking the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ight blocks at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cells 35 and 36", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ", then", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the small", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " values", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cell 37, which look like", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " they", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " carry no real", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " sign", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "al. C", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ell 38 has a lar", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ger value at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the start of its", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " block, and I'm noting", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " that several", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " interior cells seem to have", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " near", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "-zero weights, which", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " could mean they're", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " fixed walls.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "I'm no", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "tic", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ing that the interior cells with", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " near", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "-zero weights could", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " be fixed walls, which", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " would give this", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " a", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " Pac-Man-style", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " maze lay", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "out. Channel 1 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "seems to track", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " mo", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ving objects like", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " ghosts, chann", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "el 2 pellets,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " and channel 4 the previ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ous frame.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " Row 1 loo", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ks fully open, while row ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "2 has walls at columns", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 2,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 3, 6, and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 7, and row 3 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "has walls at columns 2", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " and 7.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "I'm checking the rema", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ining weight blocks for row", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 4:", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " c", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ell 39 loo", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ks near", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "-zero, like", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " another", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " wall, while cell 41", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " has a large", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " value at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " chann", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "el 0,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " and cell 42 foll", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ows with a strong value too.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm re", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ading through the remaining we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ight blocks for", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cells 43 to 48", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ":", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the small", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " values around cells 44 and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 45 look like wal", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ls, while", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cell 46 and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " c", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ell 48", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " have large", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " values again.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm sc", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "anning the small-value", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " blocks for cells 51", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " through", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 55, where a large value at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cell 51", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " and another", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " at cell 52 break", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " up", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the st", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "retch of near-zero we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ights.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm continuing", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " through", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the remaining we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ight blocks for r", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ows 6 and 7,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " where the small values around cell", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 62 look like another", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " wall,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " while cells", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 63 through", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 65 have large values again.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm checking the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " weight blocks for rows", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 7", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " and 8:", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " after", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the small values", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " around cell", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 67", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ", c", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ell 71", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the start of row", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 7 has a large", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " value, and then the small bloc", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ks for cells 72 and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 73 foll", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ow.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " Cell 74 and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " cell 75 come next with", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " s", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "izable values, and I", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "'m noting that cells ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "76 and 77 look near", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "-zero again.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "I'm s", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ketching the maze from", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the wal", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ls I", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "'ve ident", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ified: row 1 is f", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ully open, r", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ows 2,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 3, ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "6 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "and 7 have walls at", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the columns I've already", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " no", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ted, and r", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ows 4 and 5 ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "each have a pair of walls", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " in the middle. The lay", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "out is symmetric top", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " to bottom, which sugg", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ests a Pac-Man", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "-style board", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ".", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm noting which", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " p", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ellet", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ights are strong", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ly", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " negative in", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the top-left cor", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ner, with the larg", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "est at row", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " 2,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " column 4.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "Now I'm we", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ighing the output biases,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " where", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " no", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "-op is cl", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "early disfavored,", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " which points to a movement game.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " I'm le", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "aning toward a Pac", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "-Man-style maze where", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " agent eats pellets while", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " avoiding ghosts", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": ", though I'm also considering", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " a", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " ma", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ze with moving enemies and", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " a goal, since", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " p", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ellet-", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "channel weights are", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " spread across many cells.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "I'm sett", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ling on", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the Pac-Man-", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "style maze reading: p", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ellets in", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " open cells, ghosts", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " from chann", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "el 1", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " ", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "and their previous positions from", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " channel 4.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " I'll", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " quote a few of", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " the lar", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "ger weights to back", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " that", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": " up.", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"thinking": "\n\n", "type": "thinking_delta"}, "index": 0, "type": "content_block_delta"}
+{"delta": {"signature": "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", "type": "signature_delta"}, "index": 0, "type": "content_block_delta"}
+{"index": 0, "type": "content_block_stop", "content_block": {"signature": "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", "thinking": "I'm going to work out the game from the weight matrix, starting with which inputs carry large weights. Each input index maps to a cell and a channel, so I'm checking where the first block of large values starts, around line 55, which lies at row 1, column 1.\n\nNow I'm checking channel 2 across the interior cells, where most weights are small but a few units stand out, like the large negative values around row 1.\n\nI'm counting the weight rows by index to find where each cell's block starts, checking the row 2 cells and whether the large values near line 125 belong to the interior.\n\nNext I'm reading through the weight blocks for the remaining interior cells: the values around cells 12 through 18 are sizable, while cells 19 and 20 are small. The first large value after that gap is at cell 21, and the few lines following it are small again.\n\nNow I'm checking the weight blocks after the gap: the small values in lines 110 through 119 are nothing notable, and then at line 120, cell 24, the large values start again, with a strong value at unit 2 on channel 1 and a negative one at unit 6 on channel 2. I'm also noting that line 125 picks up another large block at cell 25 for the agent channel.\n\nNow I'm scanning the small-weight blocks further along, at cells 26 and 27, and then the large value at cell 28 on channel 0. After that I'm checking the remaining wall-row blocks to confirm they stay small.\n\nNext I'm checking the remaining weight blocks for cells 31 through 34, where the large values at row 3 and the small values between them show the same pattern as before.\n\nNow I'm checking the weight blocks at cells 35 and 36, then the small values at cell 37, which look like they carry no real signal. Cell 38 has a larger value at the start of its block, and I'm noting that several interior cells seem to have near-zero weights, which could mean they're fixed walls.\n\nI'm noticing that the interior cells with near-zero weights could be fixed walls, which would give this a Pac-Man-style maze layout. Channel 1 seems to track moving objects like ghosts, channel 2 pellets, and channel 4 the previous frame. Row 1 looks fully open, while row 2 has walls at columns 2, 3, 6, and 7, and row 3 has walls at columns 2 and 7.\n\nI'm checking the remaining weight blocks for row 4: cell 39 looks near-zero, like another wall, while cell 41 has a large value at channel 0, and cell 42 follows with a strong value too.\n\nNow I'm reading through the remaining weight blocks for cells 43 to 48: the small values around cells 44 and 45 look like walls, while cell 46 and cell 48 have large values again.\n\nNow I'm scanning the small-value blocks for cells 51 through 55, where a large value at cell 51 and another at cell 52 break up the stretch of near-zero weights.\n\nNow I'm continuing through the remaining weight blocks for rows 6 and 7, where the small values around cell 62 look like another wall, while cells 63 through 65 have large values again.\n\nNow I'm checking the weight blocks for rows 7 and 8: after the small values around cell 67, cell 71 at the start of row 7 has a large value, and then the small blocks for cells 72 and 73 follow. Cell 74 and cell 75 come next with sizable values, and I'm noting that cells 76 and 77 look near-zero again.\n\nI'm sketching the maze from the walls I've identified: row 1 is fully open, rows 2, 3, 6 and 7 have walls at the columns I've already noted, and rows 4 and 5 each have a pair of walls in the middle. The layout is symmetric top to bottom, which suggests a Pac-Man-style board.\n\nNow I'm noting which pellet weights are strongly negative in the top-left corner, with the largest at row 2, column 4.\n\nNow I'm weighing the output biases, where no-op is clearly disfavored, which points to a movement game. I'm leaning toward a Pac-Man-style maze where the agent eats pellets while avoiding ghosts, though I'm also considering a maze with moving enemies and a goal, since the pellet-channel weights are spread across many cells.\n\nI'm settling on the Pac-Man-style maze reading: pellets in open cells, ghosts from channel 1 and their previous positions from channel 4. I'll quote a few of the larger weights to back that up.\n\n", "type": "thinking"}}
+{"content_block": {"text": "", "type": "text"}, "index": 1, "type": "content_block_start"}
+{"delta": {"text": "**Observations:", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "**\n\n- **Ag", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ent channel (0", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ").** The", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " weights are very", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " large (mag", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "nitudes of ro", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ughly 2–7", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ") on a spec", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ific sub", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "set of inter", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ior cells and", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " at", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " noise level (about", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " 0.05) ever", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ywhere else. Examples", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " of", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " large rows: input 55,", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " cell (1,1):", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " `", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "1.706 -3.242", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " …", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " 4.081`; input ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "120, cell (2,4", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "): `-3.315 -", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "3.218 … 5.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "140 ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "4.144`; input 210", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ", cell (4,2):", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " `… 7.277 …", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "`; input 285, cell", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " (5,7): `-4", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ".928 5.834 …", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "`.\n- **D", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ead inter", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ior cells.** Some", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " interior cells have no", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ise-level weights on every chann", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "el, so nothing ever", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " appears there.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " These are (", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "2,2), (2,3", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "), (2,6), (2", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ",7), (3,2),", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " (3,7), (4,", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "4), (4,5), (", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "5,4), (5,5", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "), (6,2", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "), (6,7), (7", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ",2), (7,3),", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " (7,6), (7,", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "7). Reading \"", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "live\" vers", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "us \"dead\" cells off", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " the weights gives a fix", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ed, mirror-symm", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "etric maze:\n\n  ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "```\n  row1", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "  ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ". . . . . . . .", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "\n  row2  . # #", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " . . # #", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " .\n  row3  . #", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " . . . . # .\n  ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "row4  . . . # #", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " . . .\n  row5  ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ". . . # # . . .", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "\n  row6  . # .", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " . . . # .", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "\n  row7  . # #", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " . . # # .\n  row", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "8  . . . . . .", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " . .\n  ```\n\n-", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " **Moving-object channel", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " (1).** The weights are", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " s", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "izeable (about 1–", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "5) on exactly the same", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " corridor cells, e", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ".g. input 121", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ",", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " cell (2,4): `", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "3.745`", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " on", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " unit 2; input 126", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ", cell (2,5", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "): `-5.209` on", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " unit 5; input 241", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ", cell (4,8", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "): `-4.641", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "` on unit 9 ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "and `4.077` on un", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "it 16. So other movers", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " roam the wh", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ole maze,", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " and", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " the polic", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "y c", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ares a", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " l", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ot about", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " where they", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " are.\n- **Reward", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "-target channel (2).**", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " The weights are small but non-", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "zero on ess", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "entially every corridor cell", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " (typ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ically 0.1–0.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "6", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "), with a few lar", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ger ones, e.g.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " un", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "it 6:", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " `-1.490` at (", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "1,1), `-2.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "361` at (1,2),", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " `-1.905` at (", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "1,3), `-4.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "876` at (2,4).", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " This", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " f", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "its many small targ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ets spread over", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " all corridors r", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ather than one", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " go", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "al c", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ell.\n- **Ob", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "stacle channel (3).", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "** No", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ise level", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " everywhere, so the", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " wal", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ls are constant and car", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ry no information;", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " the lay", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "out is fixed.\n-", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " **Previous-frame chann", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "el (4).**", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " Moderate we", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ights (about 0.3–", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "2.8", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ") on every corridor cell", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ", e.g. unit ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "6 is", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " about +", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "0.7 ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "to +1", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ".0 on", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " most", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " cells and unit 9 ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "is about -", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "2", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " to -2", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ".8", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " along", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " the right", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " side of row 1. The network", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " uses this for", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " the direction the", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " movers and", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " the", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " agent are travelling.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "\n- **Output layer.**", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " The", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " biases are `-", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "0.873 0.703 ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "0.712 0.595 ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "-0.092`,", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " so no-op is disc", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ouraged and the ag", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ent keeps moving. All", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " four directions are used with", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " large", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ", mixed W", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "3 weights,", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " so this is a navigation polic", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "y.\n\n**Re", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "asoning:**", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " The agent can", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " be", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " anywhere in a fix", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ed sym", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "metric ma", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ze with intern", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "al walls.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " That", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " rules out pa", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ddle or sh", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ooter games,", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " where the agent st", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ays on one row, and falling", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "-", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "object games, where mov", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ers and", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " targets would be t", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ied to columns or rows.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " A", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " sn", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ake or", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " single", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "-food", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " game would show no", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " f", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ixed d", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ead c", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ells in the interior.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " A", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " single-goal maze would conc", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "entrate chann", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "el-2 weight", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " on one c", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ell rather than sp", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "reading it over", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " every", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " corridor c", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ell. What", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " remains is a", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " maze with coll", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ectib", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "les in", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " every corridor and roa", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ming enemies whose position", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " and he", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ading (", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "chann", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "els 1 and 4)", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " str", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ongly dr", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ive the mov", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ement cho", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ice — the Pac-", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "Man structure.\n\n**Game", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ":** Pac-Man", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " (a small ", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "8×8 maze version:", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " pellets and", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " ghosts).\n\n**", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "Description:** The agent moves", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " through a f", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ixed wal", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "led maze eating pellets", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": ", which give", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " reward, while avoiding", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " the", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " mo", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "ving ghosts that", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " chase it; being", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " caught ends the episode.", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": "\n\n**Confidence:**", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"delta": {"text": " 85%", "type": "text_delta"}, "index": 1, "type": "content_block_delta"}
+{"index": 1, "type": "content_block_stop", "content_block": {"text": "**Observations:**\n\n- **Agent channel (0).** The weights are very large (magnitudes of roughly 2–7) on a specific subset of interior cells and at noise level (about 0.05) everywhere else. Examples of large rows: input 55, cell (1,1): `1.706 -3.242 … 4.081`; input 120, cell (2,4): `-3.315 -3.218 … 5.140 4.144`; input 210, cell (4,2): `… 7.277 …`; input 285, cell (5,7): `-4.928 5.834 …`.\n- **Dead interior cells.** Some interior cells have noise-level weights on every channel, so nothing ever appears there. These are (2,2), (2,3), (2,6), (2,7), (3,2), (3,7), (4,4), (4,5), (5,4), (5,5), (6,2), (6,7), (7,2), (7,3), (7,6), (7,7). Reading \"live\" versus \"dead\" cells off the weights gives a fixed, mirror-symmetric maze:\n\n  ```\n  row1  . . . . . . . .\n  row2  . # # . . # # .\n  row3  . # . . . . # .\n  row4  . . . # # . . .\n  row5  . . . # # . . .\n  row6  . # . . . . # .\n  row7  . # # . . # # .\n  row8  . . . . . . . .\n  ```\n\n- **Moving-object channel (1).** The weights are sizeable (about 1–5) on exactly the same corridor cells, e.g. input 121, cell (2,4): `3.745` on unit 2; input 126, cell (2,5): `-5.209` on unit 5; input 241, cell (4,8): `-4.641` on unit 9 and `4.077` on unit 16. So other movers roam the whole maze, and the policy cares a lot about where they are.\n- **Reward-target channel (2).** The weights are small but non-zero on essentially every corridor cell (typically 0.1–0.6), with a few larger ones, e.g. unit 6: `-1.490` at (1,1), `-2.361` at (1,2), `-1.905` at (1,3), `-4.876` at (2,4). This fits many small targets spread over all corridors rather than one goal cell.\n- **Obstacle channel (3).** Noise level everywhere, so the walls are constant and carry no information; the layout is fixed.\n- **Previous-frame channel (4).** Moderate weights (about 0.3–2.8) on every corridor cell, e.g. unit 6 is about +0.7 to +1.0 on most cells and unit 9 is about -2 to -2.8 along the right side of row 1. The network uses this for the direction the movers and the agent are travelling.\n- **Output layer.** The biases are `-0.873 0.703 0.712 0.595 -0.092`, so no-op is discouraged and the agent keeps moving. All four directions are used with large, mixed W3 weights, so this is a navigation policy.\n\n**Reasoning:** The agent can be anywhere in a fixed symmetric maze with internal walls. That rules out paddle or shooter games, where the agent stays on one row, and falling-object games, where movers and targets would be tied to columns or rows. A snake or single-food game would show no fixed dead cells in the interior. A single-goal maze would concentrate channel-2 weight on one cell rather than spreading it over every corridor cell. What remains is a maze with collectibles in every corridor and roaming enemies whose position and heading (channels 1 and 4) strongly drive the movement choice — the Pac-Man structure.\n\n**Game:** Pac-Man (a small 8×8 maze version: pellets and ghosts).\n\n**Description:** The agent moves through a fixed walled maze eating pellets, which give reward, while avoiding the moving ghosts that chase it; being caught ends the episode.\n\n**Confidence:** 85%", "type": "text"}}
+{"delta": {"container": null, "stop_details": null, "stop_reason": "end_turn", "stop_sequence": null}, "type": "message_delta", "usage": {"cache_creation_input_tokens": 0, "cache_read_input_tokens": 0, "input_tokens": 79037, "output_tokens": 5737, "output_tokens_details": {"thinking_tokens": 4452}}}
+{"type": "message_stop", "message": {"id": "msg_011Ch987iQDiQsHqAC9mGbBU", "container": null, "content": [{"signature": "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", "thinking": "I'm going to work out the game from the weight matrix, starting with which inputs carry large weights. Each input index maps to a cell and a channel, so I'm checking where the first block of large values starts, around line 55, which lies at row 1, column 1.\n\nNow I'm checking channel 2 across the interior cells, where most weights are small but a few units stand out, like the large negative values around row 1.\n\nI'm counting the weight rows by index to find where each cell's block starts, checking the row 2 cells and whether the large values near line 125 belong to the interior.\n\nNext I'm reading through the weight blocks for the remaining interior cells: the values around cells 12 through 18 are sizable, while cells 19 and 20 are small. The first large value after that gap is at cell 21, and the few lines following it are small again.\n\nNow I'm checking the weight blocks after the gap: the small values in lines 110 through 119 are nothing notable, and then at line 120, cell 24, the large values start again, with a strong value at unit 2 on channel 1 and a negative one at unit 6 on channel 2. I'm also noting that line 125 picks up another large block at cell 25 for the agent channel.\n\nNow I'm scanning the small-weight blocks further along, at cells 26 and 27, and then the large value at cell 28 on channel 0. After that I'm checking the remaining wall-row blocks to confirm they stay small.\n\nNext I'm checking the remaining weight blocks for cells 31 through 34, where the large values at row 3 and the small values between them show the same pattern as before.\n\nNow I'm checking the weight blocks at cells 35 and 36, then the small values at cell 37, which look like they carry no real signal. Cell 38 has a larger value at the start of its block, and I'm noting that several interior cells seem to have near-zero weights, which could mean they're fixed walls.\n\nI'm noticing that the interior cells with near-zero weights could be fixed walls, which would give this a Pac-Man-style maze layout. Channel 1 seems to track moving objects like ghosts, channel 2 pellets, and channel 4 the previous frame. Row 1 looks fully open, while row 2 has walls at columns 2, 3, 6, and 7, and row 3 has walls at columns 2 and 7.\n\nI'm checking the remaining weight blocks for row 4: cell 39 looks near-zero, like another wall, while cell 41 has a large value at channel 0, and cell 42 follows with a strong value too.\n\nNow I'm reading through the remaining weight blocks for cells 43 to 48: the small values around cells 44 and 45 look like walls, while cell 46 and cell 48 have large values again.\n\nNow I'm scanning the small-value blocks for cells 51 through 55, where a large value at cell 51 and another at cell 52 break up the stretch of near-zero weights.\n\nNow I'm continuing through the remaining weight blocks for rows 6 and 7, where the small values around cell 62 look like another wall, while cells 63 through 65 have large values again.\n\nNow I'm checking the weight blocks for rows 7 and 8: after the small values around cell 67, cell 71 at the start of row 7 has a large value, and then the small blocks for cells 72 and 73 follow. Cell 74 and cell 75 come next with sizable values, and I'm noting that cells 76 and 77 look near-zero again.\n\nI'm sketching the maze from the walls I've identified: row 1 is fully open, rows 2, 3, 6 and 7 have walls at the columns I've already noted, and rows 4 and 5 each have a pair of walls in the middle. The layout is symmetric top to bottom, which suggests a Pac-Man-style board.\n\nNow I'm noting which pellet weights are strongly negative in the top-left corner, with the largest at row 2, column 4.\n\nNow I'm weighing the output biases, where no-op is clearly disfavored, which points to a movement game. I'm leaning toward a Pac-Man-style maze where the agent eats pellets while avoiding ghosts, though I'm also considering a maze with moving enemies and a goal, since the pellet-channel weights are spread across many cells.\n\nI'm settling on the Pac-Man-style maze reading: pellets in open cells, ghosts from channel 1 and their previous positions from channel 4. I'll quote a few of the larger weights to back that up.\n\n", "type": "thinking"}, {"text": "**Observations:**\n\n- **Agent channel (0).** The weights are very large (magnitudes of roughly 2–7) on a specific subset of interior cells and at noise level (about 0.05) everywhere else. Examples of large rows: input 55, cell (1,1): `1.706 -3.242 … 4.081`; input 120, cell (2,4): `-3.315 -3.218 … 5.140 4.144`; input 210, cell (4,2): `… 7.277 …`; input 285, cell (5,7): `-4.928 5.834 …`.\n- **Dead interior cells.** Some interior cells have noise-level weights on every channel, so nothing ever appears there. These are (2,2), (2,3), (2,6), (2,7), (3,2), (3,7), (4,4), (4,5), (5,4), (5,5), (6,2), (6,7), (7,2), (7,3), (7,6), (7,7). Reading \"live\" versus \"dead\" cells off the weights gives a fixed, mirror-symmetric maze:\n\n  ```\n  row1  . . . . . . . .\n  row2  . # # . . # # .\n  row3  . # . . . . # .\n  row4  . . . # # . . .\n  row5  . . . # # . . .\n  row6  . # . . . . # .\n  row7  . # # . . # # .\n  row8  . . . . . . . .\n  ```\n\n- **Moving-object channel (1).** The weights are sizeable (about 1–5) on exactly the same corridor cells, e.g. input 121, cell (2,4): `3.745` on unit 2; input 126, cell (2,5): `-5.209` on unit 5; input 241, cell (4,8): `-4.641` on unit 9 and `4.077` on unit 16. So other movers roam the whole maze, and the policy cares a lot about where they are.\n- **Reward-target channel (2).** The weights are small but non-zero on essentially every corridor cell (typically 0.1–0.6), with a few larger ones, e.g. unit 6: `-1.490` at (1,1), `-2.361` at (1,2), `-1.905` at (1,3), `-4.876` at (2,4). This fits many small targets spread over all corridors rather than one goal cell.\n- **Obstacle channel (3).** Noise level everywhere, so the walls are constant and carry no information; the layout is fixed.\n- **Previous-frame channel (4).** Moderate weights (about 0.3–2.8) on every corridor cell, e.g. unit 6 is about +0.7 to +1.0 on most cells and unit 9 is about -2 to -2.8 along the right side of row 1. The network uses this for the direction the movers and the agent are travelling.\n- **Output layer.** The biases are `-0.873 0.703 0.712 0.595 -0.092`, so no-op is discouraged and the agent keeps moving. All four directions are used with large, mixed W3 weights, so this is a navigation policy.\n\n**Reasoning:** The agent can be anywhere in a fixed symmetric maze with internal walls. That rules out paddle or shooter games, where the agent stays on one row, and falling-object games, where movers and targets would be tied to columns or rows. A snake or single-food game would show no fixed dead cells in the interior. A single-goal maze would concentrate channel-2 weight on one cell rather than spreading it over every corridor cell. What remains is a maze with collectibles in every corridor and roaming enemies whose position and heading (channels 1 and 4) strongly drive the movement choice — the Pac-Man structure.\n\n**Game:** Pac-Man (a small 8×8 maze version: pellets and ghosts).\n\n**Description:** The agent moves through a fixed walled maze eating pellets, which give reward, while avoiding the moving ghosts that chase it; being caught ends the episode.\n\n**Confidence:** 85%", "type": "text"}], "diagnostics": null, "model": "claude-fable-5-2", "role": "assistant", "stop_details": null, "stop_reason": "end_turn", "stop_sequence": null, "type": "message", "usage": {"cache_creation": {"ephemeral_1h_input_tokens": 0, "ephemeral_5m_input_tokens": 0}, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0, "inference_geo": "global", "input_tokens": 79037, "output_tokens": 5737, "output_tokens_details": {"thinking_tokens": 4452}, "service_tier": "standard", "speed": "standard"}}}

@@ -3,12 +3,15 @@
 A re-run of `rikiya's_exps/exp1_which_game/` with Claude models in place of Astra. The plan is in
 `exp01_which_game_plan.md` in this folder.
 
-Status: the code is written and tested without the API. No Claude call has been made.
+Status: Fable 5.2 is done (4 / 4 correct). Opus 5.5 has two runs on one network and is on hold. Results and
+reproducibility notes are in `WRITEUP.md`.
 
 ## Layout
 
 ```
 README.md
+exp01_which_game_plan.md   the plan
+WRITEUP.md            results and reproducibility
 requirements.txt      pinned versions of the anthropic SDK and anything else used
 code/                 run_exp1.py, score_exp1.py
 runs/

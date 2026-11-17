@@ -1,0 +1,18 @@
+{
+ "model": "claude-fable-5-2",
+ "max_tokens": 64000,
+ "system": "Answer the user's request.",
+ "messages": [
+  {
+   "role": "user",
+   "content": "<see prompt.txt>"
+  }
+ ],
+ "thinking": {
+  "type": "adaptive",
+  "display": "summarized"
+ },
+ "output_config": {
+  "effort": "high"
+ }
+}

@@ -114,6 +114,7 @@ folder's `README.md` describes the layout for anyone who opens it without this p
 test-claude/exp01/
   README.md
   exp01_which_game_plan.md   the plan
+  WRITEUP.md            results and reproducibility
   requirements.txt      pinned versions of the anthropic SDK and anything else used
   code/                 run_exp1.py, score_exp1.py
   runs/
